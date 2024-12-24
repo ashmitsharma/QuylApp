@@ -9,7 +9,7 @@ const app = express();
 
 // CORS configuration
 app.use(cors({
-  origin: ['https://quyl-app-ashmit-ny79ceuzx-ashmit-sharmas-projects-8aed11fd.vercel.app', 'http://localhost:3000'],
+  origin: ['https://quyl-app.vercel.app', 'http://localhost:3000'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
