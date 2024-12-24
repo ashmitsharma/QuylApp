@@ -1,0 +1,23 @@
+.table-row {
+    border-top: 1px solid #EAEAEA;
+}
+
+td {
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.course-box {
+    background-color: #F6F8FA;
+}
+
+.course-image {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}

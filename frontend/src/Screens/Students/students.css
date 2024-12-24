@@ -1,0 +1,58 @@
+.drop-down {
+    background-color: #E9EDF1;
+    border-radius: 6px;
+
+    font-family: 'Noto Sans', sans-serif;
+    color: #3F526E;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    /* For vertical alignment */
+    text-align: left;
+
+    appearance: none;
+    padding: 0 1rem;
+    position: relative;
+    background-image: url('../../Assets/DropdownArrow.png');
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    /* Position arrow */
+    background-size: 1rem;
+    /* Adjust arrow size */
+}
+
+.year-drop-down {
+    width: 149px;
+    height: 38px;
+}
+
+.course-drop-down {
+    width: 149px;
+    height: 38px;
+}
+
+/* Ensure options are properly aligned */
+.drop-down option {
+    text-align: left;
+}
+
+.add-student-button {
+    width: 200px;
+    height: 36px;
+    top: 16px;
+    left: 939px;
+    padding: 7px 15px 7px 15px;
+    gap: 10px;
+    background-color: #E9EDF1;
+    border-radius: 6px;
+
+    color: #3F526E;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}

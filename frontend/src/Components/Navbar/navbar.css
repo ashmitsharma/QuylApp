@@ -1,0 +1,23 @@
+.search-bar {
+    padding: 14px 210px 14px 36px;
+    gap: 10px;
+    border-radius: 12px;
+    opacity: 0px;
+
+}
+
+
+.name {
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.icon-size {
+    width: 27px;
+}

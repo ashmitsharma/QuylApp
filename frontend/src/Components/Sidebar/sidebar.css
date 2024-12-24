@@ -1,0 +1,35 @@
+.menu-item {
+    color:#6F767E;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.selected {
+    color: black;
+    background-color: #EEEEEE;
+}
+
+:global(.dark) .selected {
+    color: white;
+    background-color: #374151;
+}
+
+.sidebar {
+    height: 100%;
+    padding: 24px;
+    border-right: 1px solid #E5E7EB;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+  }
